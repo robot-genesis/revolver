@@ -1,5 +1,5 @@
 %%%-------------------------------------------------------------------
-%%% @author gusta
+%%% @author Gustavo Feuerstein
 %%% @copyright (C) 2019, Robot Genesis
 %%% @doc
 %%%
@@ -9,6 +9,7 @@
 -module(revolver_app).
 
 -behaviour(application).
+-behavior(supervisor).
 
 %% Application callbacks
 -export([start/2, stop/1]).
