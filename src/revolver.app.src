@@ -3,7 +3,7 @@
     {vsn, "1.0.1"},
     {registered, []},
     {mod, {revolver_app, []}},
-    {included_applications, [gun, edoc, jiffy]},
+    {included_applications, [gun, edoc, utilities]},
     {applications,
       [kernel, stdlib, ssl, cowlib]},
     {env, []},
