@@ -128,8 +128,6 @@ handle_response(ConnPid, StreamRef) ->
 %%%===================================================================
 
 test() ->
-  _N = env:get_number(typing_speed),
-  
   observer:start(),
   _A = application:ensure_all_started(revolver),
   application:stop(revolver).
