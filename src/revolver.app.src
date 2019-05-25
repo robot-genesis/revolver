@@ -1,0 +1,11 @@
+{application, revolver,
+  [{description, "Robot - Revolver"},
+    {vsn, "1.0.0"},
+    {registered, []},
+    {mod, {revolver_app, []}},
+    {included_applications, [helper, gun, edoc, jiffy]},
+    {applications,
+      [kernel, stdlib, ssl, cowlib]},
+    {env, []},
+    {modules, []}
+  ]}.
