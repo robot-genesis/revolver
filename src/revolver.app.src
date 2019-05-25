@@ -1,6 +1,6 @@
 {application, revolver,
   [{description, "Robot - Revolver"},
-    {vsn, "1.0.0"},
+    {vsn, "1.0.1"},
     {registered, []},
     {mod, {revolver_app, []}},
     {included_applications, [gun, edoc, jiffy]},
